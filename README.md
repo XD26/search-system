@@ -58,13 +58,14 @@ python main.py
 ### Примеры работы
 Поиск по текстовому запросу
 Запрос: «soup with chicken and lots of greens»
-[https://screenshots/text_search.png](https://raw.githubusercontent.com/XD26/search-system/main/screenshots/text_search.png)
+https://screenshots/text_search.png
 
 Поиск по изображению
 Запрос: фотография вареников
-[https://screenshots/image_search.png](https://raw.githubusercontent.com/XD26/search-system/main/screenshots/image_search.png)
+https://screenshots/image_search.png
 
 ### Структура проекта
+```
 recipe-search-system/
 ├── main.py              # Основной модуль
 ├── requirements.txt     # Список зависимостей
@@ -73,7 +74,7 @@ recipe-search-system/
 ├── .gitignore           # Исключаемые файлы
 ├── screenshots/         # Скриншоты работы системы
 └── data/                # Датасет (не включён в репозиторий)
-
+```
 ### Используемые технологии
 Python 3.9	Язык программирования
 PyTorch	Инференс модели CLIP
