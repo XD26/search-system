@@ -40,7 +40,13 @@ cd recipe-search-system
 pip install -r requirements.txt
 ```
 ### 3. Подготовка данных
-Поместите CSV-файл с рецептами в папку data/, а изображения — в data/Food Images/.
+Для работы системы необходимо скачать датасет с Kaggle:
+Название: Food Ingredients and Recipes Dataset with Images
+Источник: Kaggle — Food Ingredients and Recipes Dataset with Images
+
+После скачивания разместите файлы следующим образом:
+CSV-файл с рецептами: data/Food Ingredients and Recipe Dataset with Image Name Mapping.csv
+Изображения: data/Food Images/
 
 ### 4. Запуск сервера
 ```
@@ -59,16 +65,14 @@ https://screenshots/text_search.png
 https://screenshots/image_search.png
 
 ### Структура проекта
-text
 recipe-search-system/
-├── main.py                  # Основной модуль (CLIP + FAISS + FastAPI)
-├── requirements.txt         # Список зависимостей
-├── README.md                # Описание проекта
-├── data/                    # Датасет (CSV + изображения)
-├── screenshots/             # Скриншоты работы системы
-├── image_index.bin          # FAISS индекс (визуальный)
-├── text_index.bin           # FAISS индекс (текстовый)
-└── metadata.pkl             # Метаданные рецептов
+├── main.py              # Основной модуль
+├── requirements.txt     # Список зависимостей
+├── README.md            # Описание проекта
+├── index.html           # Веб-интерфейс
+├── .gitignore           # Исключаемые файлы
+├── screenshots/         # Скриншоты работы системы
+└── data/                # Датасет (не включён в репозиторий)
 
 ### Используемые технологии
 Python 3.9	Язык программирования
@@ -78,7 +82,3 @@ FAISS	Векторный поиск и индексация
 FastAPI	Веб-фреймворк
 Pillow	Обработка изображений
 Pandas	Работа с CSV
-Ссылки
-Демонстрация работы (видео)
-
-Текст дипломной работы
