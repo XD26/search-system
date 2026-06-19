@@ -58,11 +58,11 @@ python main.py
 ### Примеры работы
 Поиск по текстовому запросу
 Запрос: «soup with chicken and lots of greens»
-https://screenshots/text_search.png
+[https://screenshots/text_search.png](https://raw.githubusercontent.com/XD26/search-system/main/screenshots/text_search.png)
 
 Поиск по изображению
 Запрос: фотография вареников
-https://screenshots/image_search.png
+[https://screenshots/image_search.png](https://raw.githubusercontent.com/XD26/search-system/main/screenshots/image_search.png)
 
 ### Структура проекта
 recipe-search-system/
